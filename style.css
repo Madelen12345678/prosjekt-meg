@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap'); 
+        
+        /* start - css reset */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+        body {
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            background-color: rgb(141, 177, 244);
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* start - css reset */
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            background-color: rgb(110, 110, 185);
+            padding: 20px;
+           
+        }
+
+        .logo {
+            color: rgb(120, 184, 241);
+            border: solid;
+            padding: 10px;
+            font-family: "Playwrite DE SAS", cursive;
+        }
+        .nav > ul {
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+        }
+        .nav a{
+            text-decoration: none;
+            color: rgb(120, 184, 241);
+            font-size: large;
+            padding: 10px;
+            border: solid;
+        }
+        .nav a:hover{
+            background-color: lightblue;
+            transition: 500ms;
+        }
+       
+        .s1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            text-align: center;
+    
+        }
+
+        .s1 > h1{ 
+            grid-column: 1;
+
+            color: rgb(110, 110, 185);
+            margin-top: 20px;
+        }
+        .s1 > .bilde1 {
+            grid-column: 1;
+            border-radius: 15%;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .s1 > .text-box {
+            display: flex;
+            flex-direction: column;
+           /*  border: solid white; */
+            grid-column:2/4 ;
+            padding: 20px;
+           color: aliceblue;
+        }
+
+        .like{
+            background-color: rgb(110, 110, 185);
+            color: rgb(120, 184, 241);
+        }
+         
+        .container-like{
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+         .like > h2 {
+            padding: 20px;
+        }
+
+        .container-like img{
+            border-radius: 15%;
+            max-width: 200px;
+            flex: 1;
+            aspect-ratio: 3/4;
+            object-fit: cover;
+        }
+
+       
+        
+
+
+
+
+        
+        
+        .timeplan{
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        .timeplan th, .timeplan td{
+            border: 2px solid rgb(83, 83, 180);
+            padding: 15px;
+            text-align: center;
+         }
+
+         .timeplan th {
+            background-color: darkblue;
+            color: rgb(110, 110, 185);
+         }
+
+         .tid {
+            background-color: darkblue;
+            color: rgb(110, 110, 185);
+         }
+         .lunsj {
+            background-color: rgb(59, 59, 186);
+         }
+
+        
+
+ 
