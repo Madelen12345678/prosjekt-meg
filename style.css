@@ -30,6 +30,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 100%;
 
             background-color: rgb(110, 110, 185);
             padding: 20px;
@@ -91,7 +92,7 @@
         }
 
         .like{
-            background-color: rgb(110, 110, 185);
+            background-color: rgb(110, 110, 185); 
             color: rgb(120, 184, 241);
         }
          
@@ -111,6 +112,14 @@
             flex: 1;
             aspect-ratio: 3/4;
             object-fit: cover;
+        }
+
+        footer{
+            display: flex;
+        }
+
+        .kontakt-info{
+            
         }
 
        
