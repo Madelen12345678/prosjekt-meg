@@ -316,3 +316,16 @@ main{
     border-radius: 10%;
 }
 
+.img-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1;
+
+}
+.img-container img {
+    max-width: 200px;
+}
+
