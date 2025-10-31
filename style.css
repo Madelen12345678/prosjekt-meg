@@ -318,14 +318,22 @@ main{
 
 .img-container {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; 
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
     flex: 1;
 
-}
+} 
+
+ 
 .img-container img {
     max-width: 200px;
+    aspect-ratio: 9/16;
+    object-fit: contain;
+}
+
+@media (width <500px) {
+    
 }
 
