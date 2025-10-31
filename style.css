@@ -39,6 +39,10 @@ img {
 
 }
 
+@media (width <500px) {
+    .nav{flex-wrap: wrap;}
+    
+}
 .logo {
     color: rgb(120, 184, 241);
     border: solid;
@@ -333,7 +337,5 @@ main{
     object-fit: contain;
 }
 
-@media (width <500px) {
-    
-}
+
 
