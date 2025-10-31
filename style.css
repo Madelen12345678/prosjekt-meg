@@ -188,6 +188,8 @@ main{
     gap: 40px;
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .dansing {
     display: grid;
